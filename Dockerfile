@@ -1,8 +1,8 @@
 FROM python:3.8-slim-buster
 
-COPY . /docker-api
+COPY . /docker-api-test
 
-WORKDIR /docker-api
+WORKDIR /docker-api-test
 
 RUN pip install --no-cache-dir -r requirements.txt
 
